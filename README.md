@@ -57,7 +57,7 @@ O script principal (`openimages_notation_errors_dog_pics.py`) está organizado n
 
 ## Como Executar
 
-Este projeto foi inteiramente desenvolvido e testado primariamente no ambiente Google Colab.
+Este projeto foi inteiramente desenvolvido e testado no ambiente do Google Colab.
 
 ## Possíveis Melhorias Futuras
 
