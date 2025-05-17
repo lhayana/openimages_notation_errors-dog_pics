@@ -48,11 +48,11 @@ O script principal (`openimages_notation_errors_dog_pics.py`) está organizado n
 4.  **Treinamento do modelo Out-of-Sample (OOS):**
     * Combina as features e rótulos de cães e não-cães.
     * Treina o `LogisticRegression` com `cross_val_predict` para obter probabilidades OOS.
-5.  **Aplicando o `cleanlab` (Tentativa):**
+5.  **Aplicando o `cleanlab`:**
     * Utiliza `cleanlab.filter.find_label_issues` para tentar encontrar erros automaticamente.
 6.  **Visualizando imagens suspeitas:**
     * Plota as imagens da pasta `dogs_images` que receberam a menor probabilidade P(Dog) do modelo OOS.
-7.  **Análise com `Datalab` (Outliers e Near-Duplicates - Tentativa):**
+7.  **Análise com `Datalab` (Outliers e Near-Duplicates):**
     * Utiliza o `Datalab` do `cleanlab` para procurar por outliers e imagens quase duplicadas apenas no conjunto de features dos cães.
 
 ## Como Executar
